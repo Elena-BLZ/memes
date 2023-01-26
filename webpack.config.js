@@ -29,10 +29,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(s(a|c)ss)$/,
-        use: ["style-loader", "css-loader", "sass-loader"],
-      },
-      {
         test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader,
@@ -43,14 +39,13 @@ module.exports = {
           "postcss-loader",
         ],
       },
-
-      {
-        test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
-        type: "asset/resource",
-      },
       {
         test: /\.(s(a|c)ss)$/,
         use: ["style-loader", "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.(png|svg|jpg|gif|woff(2)?|eot|ttf|otf)$/,
+        type: "asset/resource",
       },
       {
         test: /\.js$/,
