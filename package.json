@@ -7,20 +7,18 @@
     "dev": "webpack serve",
     "build": "webpack",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Elena-BLZ/mesto.git"
+    "url": "git+https://github.com/Elena-BLZ/memes.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Elena-BLZ/mesto/issues"
+    "url": "https://github.com/Elena-BLZ/memes/issues"
   },
-  "homepage": "https://github.com/Elena-BLZ/mesto#readme",
+  "homepage": "https://github.com/Elena-BLZ/memes#readme",
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@babel/preset-env": "^7.16.11",
